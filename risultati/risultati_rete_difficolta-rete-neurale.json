@@ -1,0 +1,562 @@
+[
+ {
+  "gruppo": "suicidio",
+  "esplorazione": [
+   {
+    "fattore": "Mars conjunction Uranus",
+    "scarto_A": -0.0045,
+    "p_A": 0.00853628930215226,
+    "scarto_B": 0.0008,
+    "p_B": 0.6491990968069816,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Sun in Sagittarius",
+    "scarto_A": -0.0059,
+    "p_A": 0.009968806833901257,
+    "scarto_B": -0.0025,
+    "p_B": 0.27838084215734216,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mercury opposition Pluto",
+    "scarto_A": 0.0071,
+    "p_A": 0.010571823376501274,
+    "scarto_B": 0.0014,
+    "p_B": 0.6127742320489982,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Uranus sextile Neptune",
+    "scarto_A": -0.0014,
+    "p_A": 0.010768250473684309,
+    "scarto_B": -0.0003,
+    "p_B": 0.6256515868425699,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mars in Sagittarius",
+    "scarto_A": 0.0042,
+    "p_A": 0.013651916819058096,
+    "scarto_B": -0.0002,
+    "p_B": 0.904880779930517,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Sun sextile Neptune",
+    "scarto_A": 0.0087,
+    "p_A": 0.014106495821226507,
+    "scarto_B": -0.0023,
+    "p_B": 0.5382882369208757,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mercury sextile Neptune",
+    "scarto_A": -0.0092,
+    "p_A": 0.01503912209566739,
+    "scarto_B": -0.0001,
+    "p_B": 0.977574245687179,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Sun in Capricorn",
+    "scarto_A": 0.0056,
+    "p_A": 0.017544210195516417,
+    "scarto_B": 0.004,
+    "p_B": 0.0861206467110193,
+    "p_B_holm": 0.8612064671101929
+   },
+   {
+    "fattore": "Moon in Taurus",
+    "scarto_A": -0.0081,
+    "p_A": 0.019248865390878934,
+    "scarto_B": -0.0011,
+    "p_B": 0.7604692617327016,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Venus trine Saturn",
+    "scarto_A": -0.0079,
+    "p_A": 0.026520420909906847,
+    "scarto_B": 0.0018,
+    "p_B": 0.629637167470547,
+    "p_B_holm": 1.0
+   }
+  ]
+ },
+ {
+  "gruppo": "suicidio",
+  "persone": 7194,
+  "modello": "rete neurale",
+  "auc": 0.5,
+  "nullo_medio": 0.5002,
+  "nullo_95": 0.5044,
+  "p": 0.4286,
+  "nulli": [
+   0.5031,
+   0.4956,
+   0.4986,
+   0.5043,
+   0.499,
+   0.4983,
+   0.5016,
+   0.4981,
+   0.4977,
+   0.5034,
+   0.4994,
+   0.5025,
+   0.4965,
+   0.5056,
+   0.4991,
+   0.4997,
+   0.4965,
+   0.5027,
+   0.5043,
+   0.4979
+  ],
+  "coda_2pct": 0.1657,
+  "coda_nulli": [
+   0.1761,
+   0.153,
+   0.1634,
+   0.1564,
+   0.1483,
+   0.1773,
+   0.1715,
+   0.1506,
+   0.168,
+   0.1506,
+   0.1738,
+   0.1564,
+   0.1761,
+   0.1866,
+   0.1599,
+   0.1657,
+   0.1622,
+   0.1761,
+   0.1842,
+   0.1599
+  ],
+  "p_coda": 0.5238
+ },
+ {
+  "gruppo": "psichiatrici (depr+bip+schizo+ansia+DCA+PTSD+OCD)",
+  "esplorazione": [
+   {
+    "fattore": "Sun conjunction Moon",
+    "scarto_A": -0.0083,
+    "p_A": 3.195960917965442e-05,
+    "scarto_B": -0.0049,
+    "p_B": 0.3178988861615243,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Moon opposition Venus",
+    "scarto_A": -0.0102,
+    "p_A": 0.0038034516467618405,
+    "scarto_B": -0.0005,
+    "p_B": 0.9276960563798582,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mercury in Aquarius",
+    "scarto_A": 0.0214,
+    "p_A": 0.007480850161804088,
+    "scarto_B": -0.0102,
+    "p_B": 0.1905605893754247,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Jupiter in Libra",
+    "scarto_A": -0.0068,
+    "p_A": 0.016170006615973544,
+    "scarto_B": -0.0,
+    "p_B": 0.9999999999999999,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Venus in Sagittarius",
+    "scarto_A": -0.017,
+    "p_A": 0.021105819748927675,
+    "scarto_B": 0.0005,
+    "p_B": 0.9462228070528536,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Jupiter trine Neptune",
+    "scarto_A": 0.0063,
+    "p_A": 0.023454094769800055,
+    "scarto_B": 0.0015,
+    "p_B": 0.787144777332623,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mars sextile Pluto",
+    "scarto_A": 0.0189,
+    "p_A": 0.025361164310525743,
+    "scarto_B": -0.0039,
+    "p_B": 0.6436198126913472,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mercury square Neptune",
+    "scarto_A": -0.0233,
+    "p_A": 0.025679002035720076,
+    "scarto_B": 0.0194,
+    "p_B": 0.09389044276296485,
+    "p_B_holm": 0.9389044276296485
+   },
+   {
+    "fattore": "Venus in Scorpio",
+    "scarto_A": 0.016,
+    "p_A": 0.029032064383090084,
+    "scarto_B": -0.0044,
+    "p_B": 0.484188886681459,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Jupiter in Gemini",
+    "scarto_A": -0.0049,
+    "p_A": 0.032840358872261485,
+    "scarto_B": 0.0005,
+    "p_B": 0.8761184892411166,
+    "p_B_holm": 1.0
+   }
+  ]
+ },
+ {
+  "gruppo": "psichiatrici (depr+bip+schizo+ansia+DCA+PTSD+OCD)",
+  "persone": 824,
+  "modello": "rete neurale",
+  "auc": 0.4914,
+  "nullo_medio": 0.5011,
+  "nullo_95": 0.5116,
+  "p": 0.9048,
+  "nulli": [
+   0.5114,
+   0.4943,
+   0.4912,
+   0.5003,
+   0.5053,
+   0.4973,
+   0.5054,
+   0.5103,
+   0.4963,
+   0.5026,
+   0.4997,
+   0.5064,
+   0.5044,
+   0.4996,
+   0.4957,
+   0.498,
+   0.4996,
+   0.4867,
+   0.5019,
+   0.5148
+  ],
+  "coda_2pct": 0.1531,
+  "coda_nulli": [
+   0.1939,
+   0.1429,
+   0.1939,
+   0.2041,
+   0.2041,
+   0.2143,
+   0.1122,
+   0.1224,
+   0.1735,
+   0.2551,
+   0.1837,
+   0.102,
+   0.1633,
+   0.1633,
+   0.2041,
+   0.1224,
+   0.2143,
+   0.1837,
+   0.1837,
+   0.1939
+  ],
+  "p_coda": 0.7619
+ },
+ {
+  "gruppo": "sostanze (alcol+dip+overdose)",
+  "esplorazione": [
+   {
+    "fattore": "Moon conjunction Saturn",
+    "scarto_A": -0.0113,
+    "p_A": 0.0010069213482695402,
+    "scarto_B": -0.0014,
+    "p_B": 0.8000030296678494,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mars conjunction Saturn",
+    "scarto_A": -0.0232,
+    "p_A": 0.001966833421751006,
+    "scarto_B": -0.0007,
+    "p_B": 0.9283434407861451,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Moon conjunction Uranus",
+    "scarto_A": -0.0063,
+    "p_A": 0.00255966856666416,
+    "scarto_B": -0.0056,
+    "p_B": 0.2064634174518158,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "compensazione Sun",
+    "scarto_A": 0.2009,
+    "p_A": 0.0026806049234952612,
+    "scarto_B": -0.0444,
+    "p_B": 0.5197441497418391,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mercury opposition Pluto",
+    "scarto_A": 0.0261,
+    "p_A": 0.016889729865423645,
+    "scarto_B": -0.0014,
+    "p_B": 0.8930185433886692,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mercury square Jupiter",
+    "scarto_A": -0.0261,
+    "p_A": 0.019255365494712774,
+    "scarto_B": -0.0099,
+    "p_B": 0.45523160394742657,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "dignita Saturn",
+    "scarto_A": 0.0169,
+    "p_A": 0.026890820589722843,
+    "scarto_B": 0.0035,
+    "p_B": 0.5646198259969435,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mars in Aries",
+    "scarto_A": 0.0162,
+    "p_A": 0.028778076514955835,
+    "scarto_B": -0.0,
+    "p_B": 1.0,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Sun conjunction Venus",
+    "scarto_A": -0.0197,
+    "p_A": 0.035612222718375865,
+    "scarto_B": -0.0155,
+    "p_B": 0.11061912220218864,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Moon square Pluto",
+    "scarto_A": -0.0099,
+    "p_A": 0.03877958560439512,
+    "scarto_B": -0.0007,
+    "p_B": 0.9344391147095594,
+    "p_B_holm": 1.0
+   }
+  ]
+ },
+ {
+  "gruppo": "sostanze (alcol+dip+overdose)",
+  "persone": 568,
+  "modello": "rete neurale",
+  "auc": 0.5088,
+  "nullo_medio": 0.498,
+  "nullo_95": 0.5057,
+  "p": 0.0952,
+  "nulli": [
+   0.5097,
+   0.5045,
+   0.5035,
+   0.4956,
+   0.4948,
+   0.5055,
+   0.4948,
+   0.4926,
+   0.4979,
+   0.481,
+   0.4943,
+   0.4978,
+   0.5041,
+   0.5044,
+   0.5031,
+   0.4998,
+   0.5015,
+   0.4986,
+   0.4957,
+   0.481
+  ],
+  "coda_2pct": 0.2353,
+  "coda_nulli": [
+   0.1765,
+   0.2059,
+   0.1471,
+   0.2206,
+   0.1765,
+   0.2059,
+   0.1324,
+   0.1618,
+   0.2059,
+   0.1765,
+   0.2794,
+   0.2059,
+   0.1765,
+   0.1471,
+   0.1471,
+   0.1471,
+   0.1765,
+   0.2059,
+   0.1176,
+   0.1471
+  ],
+  "p_coda": 0.0952
+ },
+ {
+  "gruppo": "tutti",
+  "esplorazione": [
+   {
+    "fattore": "Mercury opposition Pluto",
+    "scarto_A": 0.0075,
+    "p_A": 0.003476823929426047,
+    "scarto_B": 0.0021,
+    "p_B": 0.4054085135702389,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Uranus sextile Neptune",
+    "scarto_A": -0.0013,
+    "p_A": 0.007577002748202532,
+    "scarto_B": -0.0004,
+    "p_B": 0.457680396424362,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Sun in Capricorn",
+    "scarto_A": 0.0053,
+    "p_A": 0.014954250893231791,
+    "scarto_B": 0.0039,
+    "p_B": 0.07262621009593298,
+    "p_B_holm": 0.7262621009593297
+   },
+   {
+    "fattore": "Sun in Sagittarius",
+    "scarto_A": -0.005,
+    "p_A": 0.019655387698754537,
+    "scarto_B": -0.0026,
+    "p_B": 0.2287825828227615,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mars in Sagittarius",
+    "scarto_A": 0.0038,
+    "p_A": 0.01975137839906127,
+    "scarto_B": -0.0002,
+    "p_B": 0.8876017872171769,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Uranus opposition Pluto",
+    "scarto_A": -0.0008,
+    "p_A": 0.02090332945877419,
+    "scarto_B": 0.0001,
+    "p_B": 0.7098630156591001,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mercury sextile Neptune",
+    "scarto_A": -0.0081,
+    "p_A": 0.02092752922782088,
+    "scarto_B": -0.001,
+    "p_B": 0.7813256178433592,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Jupiter sextile Uranus",
+    "scarto_A": 0.0025,
+    "p_A": 0.02240810563215131,
+    "scarto_B": -0.0002,
+    "p_B": 0.8348563184330696,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Mercury square Jupiter",
+    "scarto_A": -0.0073,
+    "p_A": 0.030515832815296948,
+    "scarto_B": -0.0013,
+    "p_B": 0.7026507741409869,
+    "p_B_holm": 1.0
+   },
+   {
+    "fattore": "Sun sextile Neptune",
+    "scarto_A": 0.0071,
+    "p_A": 0.03157965022630583,
+    "scarto_B": -0.0018,
+    "p_B": 0.5915697101778489,
+    "p_B_holm": 1.0
+   }
+  ]
+ },
+ {
+  "gruppo": "tutti",
+  "persone": 8302,
+  "modello": "rete neurale",
+  "auc": 0.497,
+  "nullo_medio": 0.4997,
+  "nullo_95": 0.5039,
+  "p": 0.8571,
+  "nulli": [
+   0.5021,
+   0.5009,
+   0.4975,
+   0.4971,
+   0.4982,
+   0.4969,
+   0.4952,
+   0.5044,
+   0.5013,
+   0.5009,
+   0.498,
+   0.5008,
+   0.4982,
+   0.5039,
+   0.4992,
+   0.4963,
+   0.5026,
+   0.5004,
+   0.5006,
+   0.4984
+  ],
+  "coda_2pct": 0.1536,
+  "coda_nulli": [
+   0.1777,
+   0.1476,
+   0.1335,
+   0.1556,
+   0.1737,
+   0.1627,
+   0.1677,
+   0.1657,
+   0.1556,
+   0.1747,
+   0.1606,
+   0.1697,
+   0.1687,
+   0.1747,
+   0.1426,
+   0.1526,
+   0.1506,
+   0.1596,
+   0.1757,
+   0.1757
+  ],
+  "p_coda": 0.7619
+ }
+]
