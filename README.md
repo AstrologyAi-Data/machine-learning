@@ -55,3 +55,13 @@ succedere. È un indizio debole, da replicare su dati nuovi.
 
 Dipendenze: `pip install pyswisseph scikit-learn scipy numpy` (e `torch` per la rete neurale).
 I dati vengono dal repo **statistiche** (`scarica_wikidata.py`).
+
+## Verifica finale su persone nuove (`ml_accorto.py`)
+
+Piano fissato prima di guardare: il modello impara su 8.253 persone e viene verificato **una sola volta** su 1.552
+persone nuove, mai viste (dal testo di Wikipedia). Ci sono 4 modelli (compensazione imparata, tutti i fattori, alberi,
+composti) per 2 confronti (giorni, anni), con la correzione di Holm sugli 8 test.
+
+**Tutti e 8 = caso** (AUC 48,6–50,7 su 100, p corretto = 1). L'indizio del confronto "anni" non si ripete.
+Pesi imparati per la compensazione: domicilio +0,03, caduta −0,03, quindi nella direzione di Morpurgo. Ma la
+regolarizzazione li schiaccia verso 0 e il modello non riconosce le persone nuove: sono rumore.
