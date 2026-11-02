@@ -1,0 +1,42 @@
+{
+ "nuove_692": {
+  "n": 662,
+  "risultati": {
+   "Luna in Pesci": {
+    "osservate": 62.0,
+    "attese": 56.2,
+    "z": 0.77,
+    "p": 0.4405,
+    "p_una_coda_meno": 0.7797
+   },
+   "Luna quadrato Nettuno": {
+    "osservate": 63.9,
+    "attese": 59.4,
+    "z": 0.58,
+    "p": 0.5622,
+    "p_una_coda_meno": 0.7189
+   },
+   "Luna quadrato Giove": {
+    "osservate": 58.2,
+    "attese": 60.5,
+    "z": -0.29,
+    "p": 0.7708,
+    "p_una_coda_meno": 0.3854
+   },
+   "Luna opposta Sole": {
+    "osservate": 29.8,
+    "attese": 30.2,
+    "z": -0.08,
+    "p": 0.9384,
+    "p_una_coda_meno": 0.4692
+   },
+   "Luna debole (Morpurgo)": {
+    "osservate": 102.1,
+    "attese": 110.4,
+    "z": -0.79,
+    "p": 0.4292,
+    "p_una_coda_meno": 0.2146
+   }
+  }
+ }
+}
