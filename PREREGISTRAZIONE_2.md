@@ -41,3 +41,25 @@ sulle persone nuove, con 1.000 rimescolamenti e Holm su 8 test.
 
 **H1 non si conferma.** Unendo le due verifiche pre-registrate: 309 persone con Luna debole contro 316 attese
 (z = −0,4). L'indizio "Luna debole meno frequente" era rumore e viene abbandonato.
+
+### Machine learning sulle 1.253 persone nuove (verifica una sola volta)
+
+| Modello | ±15 giorni | altri anni |
+|---|---|---|
+| A · compensazione imparata | 47,96 (p 0,997) | 50,97 (p 0,12) |
+| B · tutti i fattori | 49,35 | 49,95 |
+| C · alberi | 49,86 | 49,89 |
+| D · composti | 48,45 | 50,37 |
+
+Tutti nel caso, con Holm = 1 su 8 test. La compensazione imparata, che nella prima verifica aveva dato 51,7 su
+100, qui dà 48,0: l'indizio era rumore.
+
+## Quadro finale
+
+Due verifiche pre-registrate su persone mai viste (686 + 1.253 = 1.939):
+
+| Ipotesi | Prima verifica | Seconda verifica | Esito |
+|---|---|---|---|
+| Luna debole meno frequente | 102 / 110 | 207 / 206 | non si ripete |
+| Compensazione imparata (ML, ±15 giorni) | 51,7 | 48,0 | non si ripete |
+| Tutte le altre | caso | caso | caso |
