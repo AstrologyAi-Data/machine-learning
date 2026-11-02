@@ -67,3 +67,14 @@ composti) per 2 confronti (giorni, anni), con la correzione di Holm sugli 8 test
 **Tutti e 8 = caso** (AUC 48,6–50,7 su 100, p corretto = 1). L'indizio del confronto "anni" non si ripete.
 Pesi imparati per la compensazione: domicilio +0,03, caduta −0,03, quindi nella direzione di Morpurgo. Ma la
 regolarizzazione li schiaccia verso 0 e il modello non riconosce le persone nuove: sono rumore.
+
+## Contesto contro cielo
+
+Contesto: paese, mestiere, sesso, fama (numero di Wikipedia), patrimonio, titolo nobiliare, università, decennio di nascita.
+Controllo: persone famose nate negli stessi anni, scelte a caso.
+
+![Contesto contro cielo](grafici/grafico_contesto.png)
+
+Il contesto da solo riconosce il gruppo 76 volte su 100. Il cielo da solo 56, ma tra persone diverse il cielo misura
+anche l'epoca e le date "segnaposto" del 1° gennaio, quindi non è un segnale. Quando il cielo si aggiunge al contesto
+non migliora niente (0,751 contro 0,751 con il cielo rimescolato, p = 0,52).
