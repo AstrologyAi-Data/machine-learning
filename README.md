@@ -62,6 +62,8 @@ Piano fissato prima di guardare: il modello impara su 8.253 persone e viene veri
 persone nuove, mai viste (dal testo di Wikipedia). Ci sono 4 modelli (compensazione imparata, tutti i fattori, alberi,
 composti) per 2 confronti (giorni, anni), con la correzione di Holm sugli 8 test.
 
+![Verifica finale](grafici/ml_accorto.png)
+
 **Tutti e 8 = caso** (AUC 48,6–50,7 su 100, p corretto = 1). L'indizio del confronto "anni" non si ripete.
 Pesi imparati per la compensazione: domicilio +0,03, caduta −0,03, quindi nella direzione di Morpurgo. Ma la
 regolarizzazione li schiaccia verso 0 e il modello non riconosce le persone nuove: sono rumore.
