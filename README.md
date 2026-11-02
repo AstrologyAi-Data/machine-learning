@@ -102,3 +102,20 @@ Effetto minimo che il test trova 8 volte su 10 (p < 0,05):
 | aspetto raro (0,5%) | +194% | +97% | +43% | +19% |
 
 Con i 7.000 suicidi il test vede effetti del 10-12% sulla Luna; con i gruppi piccoli solo effetti del 30-40%.
+
+## Pesi della compensazione scelti dai dati, con pochi parametri
+
+`analisi/pesi_pochi_parametri.py`: invece di 125 pesi, solo 10: uno per ogni aspetto (5) e uno per ogni dignità (5),
+moltiplicati. Perdita del case-crossover (la data vera contro le sue 5 finte), regolarizzazione scelta con una
+divisione interna, 3 divisioni ripetute per persona, prova del caso con 10 rimescolamenti.
+
+Su 3.000 persone: **AUC 0,498** (il caso è 0,500), prima scelta giusta 16,8% (caso 16,7%), p = 0,36.
+Pesi imparati: opposizione +1,0, congiunzione +0,43, quadrato −0,13, trigono −0,04; domicilio +0,07, esaltazione +0,11,
+caduta +0,09, esilio −0,04. Non seguono la regola di Morpurgo (domicilio ed esaltazione positivi, esilio e caduta
+negativi) e nessuno si distingue dal rumore.
+
+Con una regolarizzazione troppo forte i pesi di dignità vanno a zero e il modello non può imparare niente: nella
+prova a 300 persone il risultato era quello. Va scelta con attenzione.
+
+**Conclusione sui numeri scelti dai dati**: né con 125 parametri, né con 10, né su persone nuove i pesi riconoscono le
+persone meglio del caso.
