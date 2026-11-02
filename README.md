@@ -78,3 +78,27 @@ Controllo: persone famose nate negli stessi anni, scelte a caso.
 Il contesto da solo riconosce il gruppo 76 volte su 100. Il cielo da solo 56, ma tra persone diverse il cielo misura
 anche l'epoca e le date "segnaposto" del 1° gennaio, quindi non è un segnale. Quando il cielo si aggiunge al contesto
 non migliora niente (0,751 contro 0,751 con il cielo rimescolato, p = 0,52).
+
+## Luna con le probabilità (ora di nascita ignota)
+
+Invece di escludere le persone con la Luna incerta (circa il 40% dei giorni), ogni condizione pesa per la frazione delle
+24 ore in cui è vera. Tornano tutte le persone, e il test è più sensibile.
+
+![Luna con le probabilità](grafici/prob_luna.png)
+
+Nessuna ipotesi regge la correzione per i 20 confronti. "Luna debole" (esilio o caduta secondo le dignità) esce meno
+spesso del previsto, cioè al contrario dell'ipotesi, nei suicidi (p 0,048), in alcol e droghe (p 0,011) e in tutti
+(p 0,032). I gruppi si sovrappongono, quindi non sono tre conferme indipendenti. Da replicare sulle persone nuove.
+
+## Potenza: quanto serve per vedere un effetto
+
+Effetto minimo che il test trova 8 volte su 10 (p < 0,05):
+
+| Condizione (frequenza) | 500 persone | 2.000 | 10.000 | 50.000 |
+|---|---|---|---|---|
+| Luna in Pesci (8,3%) | +48% | +24% | +11% | +5% |
+| Luna debole (11%) | +41% | +21% | +9% | +4% |
+| Luna quadrato Giove (2%) | +97% | +49% | +22% | +10% |
+| aspetto raro (0,5%) | +194% | +97% | +43% | +19% |
+
+Con i 7.000 suicidi il test vede effetti del 10-12% sulla Luna; con i gruppi piccoli solo effetti del 30-40%.

@@ -1,0 +1,142 @@
+{
+ "suicidio": {
+  "n": 6426,
+  "risultati": {
+   "Luna in Pesci": {
+    "osservate": 565.7,
+    "attese": 530.1,
+    "z": 1.55,
+    "p": 0.1212
+   },
+   "Luna quadrato Nettuno": {
+    "osservate": 579.1,
+    "attese": 569.1,
+    "z": 0.42,
+    "p": 0.6761
+   },
+   "Luna quadrato Giove": {
+    "osservate": 596.1,
+    "attese": 583.2,
+    "z": 0.54,
+    "p": 0.5915
+   },
+   "Luna opposta Sole": {
+    "osservate": 258.6,
+    "attese": 279.8,
+    "z": -1.27,
+    "p": 0.2043
+   },
+   "Luna debole (Morpurgo)": {
+    "osservate": 1042.5,
+    "attese": 1108.5,
+    "z": -1.98,
+    "p": 0.0477
+   }
+  }
+ },
+ "psichiatrici": {
+  "n": 759,
+  "risultati": {
+   "Luna in Pesci": {
+    "osservate": 57.7,
+    "attese": 65.0,
+    "z": -0.9,
+    "p": 0.3661
+   },
+   "Luna quadrato Nettuno": {
+    "osservate": 73.8,
+    "attese": 70.7,
+    "z": 0.37,
+    "p": 0.7131
+   },
+   "Luna quadrato Giove": {
+    "osservate": 70.0,
+    "attese": 62.9,
+    "z": 0.9,
+    "p": 0.3701
+   },
+   "Luna opposta Sole": {
+    "osservate": 32.6,
+    "attese": 36.6,
+    "z": -0.67,
+    "p": 0.5051
+   },
+   "Luna debole (Morpurgo)": {
+    "osservate": 121.1,
+    "attese": 126.2,
+    "z": -0.45,
+    "p": 0.6525
+   }
+  }
+ },
+ "sostanze": {
+  "n": 526,
+  "risultati": {
+   "Luna in Pesci": {
+    "osservate": 48.9,
+    "attese": 42.1,
+    "z": 1.04,
+    "p": 0.2964
+   },
+   "Luna quadrato Nettuno": {
+    "osservate": 43.7,
+    "attese": 46.2,
+    "z": -0.38,
+    "p": 0.704
+   },
+   "Luna quadrato Giove": {
+    "osservate": 43.9,
+    "attese": 48.9,
+    "z": -0.71,
+    "p": 0.4754
+   },
+   "Luna opposta Sole": {
+    "osservate": 21.1,
+    "attese": 23.4,
+    "z": -0.48,
+    "p": 0.6332
+   },
+   "Luna debole (Morpurgo)": {
+    "osservate": 67.2,
+    "attese": 91.3,
+    "z": -2.53,
+    "p": 0.0115
+   }
+  }
+ },
+ "tutti": {
+  "n": 8803,
+  "risultati": {
+   "Luna in Pesci": {
+    "osservate": 776.4,
+    "attese": 736.4,
+    "z": 1.48,
+    "p": 0.14
+   },
+   "Luna quadrato Nettuno": {
+    "osservate": 789.2,
+    "attese": 784.4,
+    "z": 0.17,
+    "p": 0.862
+   },
+   "Luna quadrato Giove": {
+    "osservate": 819.4,
+    "attese": 795.0,
+    "z": 0.86,
+    "p": 0.3875
+   },
+   "Luna opposta Sole": {
+    "osservate": 360.1,
+    "attese": 380.9,
+    "z": -1.07,
+    "p": 0.286
+   },
+   "Luna debole (Morpurgo)": {
+    "osservate": 1417.9,
+    "attese": 1500.9,
+    "z": -2.14,
+    "p": 0.0321
+   }
+  }
+ }
+}
