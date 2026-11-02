@@ -30,3 +30,26 @@ con le probabilità. Servono solo a vedere se in un gruppo nuovo succede qualcos
 
 Non si cambiano modelli, soglie o gruppi dopo aver visto i dati. Se qualcosa non torna si scrive nel README e si
 rifà un nuovo piano.
+
+## Risultati (3.278 persone nuove, mai viste)
+
+Piano rispettato, nessuna modifica dopo aver visto i dati.
+
+**H1, compensazione imparata (modello A), confronto giorni: AUC 0,5001, p = 0,50 (una coda). Non confermata.**
+
+| Confronto | Modello | AUC | p | Holm (8 test) |
+|---|---|---|---|---|
+| giorni | A compensazione imparata | 0,5001 | 0,50 | 1 |
+| giorni | B logistica, tutti i fattori | 0,5009 | 0,44 | 1 |
+| giorni | C alberi | 0,5018 | 0,27 | 1 |
+| giorni | D composti | 0,5020 | 0,34 | 1 |
+| anni | A compensazione imparata | 0,4963 | 0,77 | 1 |
+| anni | B logistica | 0,5058 | 0,14 | 1 |
+| anni | C alberi | 0,5033 | 0,26 | 1 |
+| anni | D composti | 0,5042 | 0,20 | 1 |
+
+Luna con le probabilità, tutte le 3.278 persone: Pesci +2,7% (p 0,66), quadrato Nettuno (p 0,82), quadrato Giove
+(p 0,39), opposta Sole (p 0,81), Luna debole +5,9% (p 0,16). Tutto nel caso.
+Gruppi esplorativi (ADHD 520, borderline 63, PTSD 119): nessun p sotto 0,087, nessuno regge FDR.
+
+**Conclusione**: terza replica nulla. Insieme alle prime due, nessun segnale.
