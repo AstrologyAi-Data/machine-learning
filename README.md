@@ -119,3 +119,10 @@ prova a 300 persone il risultato era quello. Va scelta con attenzione.
 
 **Conclusione sui numeri scelti dai dati**: né con 125 parametri, né con 10, né su persone nuove i pesi riconoscono le
 persone meglio del caso.
+
+### Pesi con 10 parametri su tutte le persone (10.500)
+
+AUC **0,499** (caso 0,500), prima scelta giusta 16,6% (caso 16,7%), p = 0,71. I pesi imparati **cambiano segno**
+rispetto alla prova su 3.000 persone (congiunzione da +0,43 a −1,0, trigono da −0,04 a +0,42, sestile da +0,10 a
++0,68) e le dignità vanno tutte a zero. Con più dati i pesi non si stabilizzano: è la firma del rumore, non di
+un segnale.
