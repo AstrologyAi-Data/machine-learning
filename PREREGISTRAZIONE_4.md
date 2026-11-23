@@ -42,3 +42,20 @@ Dopo i risultati, non prima: un agente propone cosa potrebbe essere un pattern, 
 ## Cosa non si fa
 Non si cambiano modelli, soglie o gruppi dopo aver visto i dati. Se qualcosa non torna si scrive nel README e si rifà
 un nuovo piano.
+
+## Risultati (15.827 persone nuove, mai viste; modello imparato su 11.531)
+
+Piano rispettato, nessuna modifica dopo aver visto i dati. 473 fattori (coppie di segni, governanti in comune, conteggi di aspetti).
+
+**H1 (lasso, confronto giorni): AUC 0,5000, p = 1,0. Non confermata.** Il lasso ha azzerato tutti i fattori: nessun fattore tenuto, nessuno stabile (16 volte su 20).
+
+| Confronto | Modello | AUC | p | Holm (4 test) |
+|---|---|---|---|---|
+| giorni | lasso | 0,5000 | 1,00 | 1 |
+| giorni | alberi | 0,4996 | 0,58 | 1 |
+| anni | lasso | 0,4987 | 0,72 | 1 |
+| anni | alberi | 0,5026 | 0,15 | 0,60 |
+
+Nel confronto anni il lasso ha tenuto 89 fattori e non riconosce comunque le persone nuove: rumore.
+
+**Conclusione**: quarta replica nulla, con più fattori e più persone. Con ~15.800 persone nuove il test vede un AUC sopra circa 0,51: un effetto più piccolo non si può escludere. Nota: la "compensazione" usata qui è la somma delle dignità, non la versione con le mancanze specifiche del segno; quest'ultima non è ancora stata testata.
