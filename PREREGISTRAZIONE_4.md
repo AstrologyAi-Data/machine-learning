@@ -18,6 +18,9 @@ I 363 già usati, più per ogni coppia di pianeti personali (Sole, Luna, Mercuri
 distanza fra i segni (stesso segno, 1, 2, 3, 4, 5, 6 segni), stesso elemento, stessa modalità, governante in comune
 (tabella di Morpurgo: Capricorno-Acquario, Sagittario-Pesci, Ariete-Scorpione, Toro-Bilancia, Gemelli-Vergine).
 
+Aggiunta del 23/11/2026, prima del lancio e prima di ogni risultato: 10 conteggi di aspetti (totali, duri, morbidi,
+congiunzioni, sestili e il numero di aspetti di ciascun pianeta personale). I fattori diventano circa 470.
+
 ## Modelli e test
 Compito: fra la data vera e le 5 finte, trovare quella vera. Due confronti (giorni, anni; per gli anni solo pianeti
 personali). Due modelli (lasso, alberi). Quattro test, AUC sulle persone nuove, una coda, **correzione di Holm sui 4**.
